@@ -5,8 +5,8 @@
     <meta name="keywords" content="前端开发,github pages,jekyll,个人网站搭建" />
     <meta name="description" content="前段时间，朋友问我如何高大上地展现个人作品。既然要求高大上，无外乎易传播、体验好、摒除纸媒，那就以线上的方式将自己的作品丢给面试官呗（朋友在求职）。我向她推荐了 github pages，一来无需购买服务器及域名，二则因为按照她的需求一个静态站点足矣。本文算是为朋友量身打造，比较适合小白食用，介绍了如何使用静态站点生成工具 jekyll 及 github 服务器搭建个人网站。大神请飘过但不反对批评指正，万分感谢。" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
-    <title>呆恋小喵的后花园 - 使用 Jekyll + Github Pages 搭建个人网站</title>
-    <link rel="shortcut icon" href="https://sunmengyuan.github.io/materials/garden/shortcut.ico" />
+    <title>木子粑粑的后花园 - 使用 Jekyll + Github Pages 搭建个人网站</title>
+    <link rel="shortcut icon" href="https://liqide0421.github.io/materials/garden/shortcut.ico" />
     <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/atom-one-dark.min.css" />
     <link rel="stylesheet/less" href="/garden/assets/style/style.less" />
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
@@ -24,7 +24,7 @@
         s.parentNode.insertBefore(hm, s);
     })();
 </script>
-<img src="https://sunmengyuan.github.io/materials/garden/portrait.jpg" alt="呆恋小喵" width="0" height="0" />
+<img src="https://liqide0421.github.io/materials/garden/portrait.jpg" alt="木子粑粑" width="0" height="0" />
 <nav>
     <a href="javascript:;" class="js_menu_btn">
         <span></span>
@@ -38,7 +38,7 @@
     </ul>
 </nav>
 <a href="javascript:;" class="gotop js_gotop"></a>
-<header class="post" style="background-image: url('https://sunmengyuan.github.io/materials/garden/banner.jpg')">
+<header class="post" style="background-image: url('https://liqide0421.github.io/materials/garden/banner.jpg')">
     <div>
         <h2>使用 Jekyll + Github Pages 搭建个人网站</h2>
         <time>24 Feb 2017</time>
@@ -61,33 +61,33 @@
 
 <p>github 用户名是可以修改的：</p>
 
-<p><img src="https://sunmengyuan.github.io/materials/garden/post/github-blog/change-username.png" alt="" /></p>
+<p><img src="https://liqide0421.github.io/materials/garden/post/github-blog/change-username.png" alt="" /></p>
 
 <p>若执行上述操作后发现用户名仍未变更，其原因多半是该用户名已被占用（提示信息不明显，以致很多人不明修改失败的原因）。</p>
 
-<p><img src="https://sunmengyuan.github.io/materials/garden/post/github-blog/change-username-alert.png" alt="" /></p>
+<p><img src="https://liqide0421.github.io/materials/garden/post/github-blog/change-username-alert.png" alt="" /></p>
 
 <h3 id="二新建仓库">二、新建仓库</h3>
 
-<p>使用 github 托管个人网站时，所对应仓库的命名是有规则的：<strong><em>[github 用户名].github.io</em></strong>。例如本人的用户名为 sunmengyuan，那么我的个人网站所对应的仓库名为 sunmengyuan.github.io。</p>
+<p>使用 github 托管个人网站时，所对应仓库的命名是有规则的：<strong><em>[github 用户名].github.io</em></strong>。例如本人的用户名为 liqide0421，那么我的个人网站所对应的仓库名为 liqide0421.github.io。</p>
 
 <p>下面，开始创建新仓库：</p>
 
-<p><img src="https://sunmengyuan.github.io/materials/garden/post/github-blog/create-repository.png" alt="" /></p>
+<p><img src="https://liqide0421.github.io/materials/garden/post/github-blog/create-repository.png" alt="" /></p>
 
 <p>最后，将项目克隆至本地：</p>
 
-<p><img src="https://sunmengyuan.github.io/materials/garden/post/github-blog/clone-repository.png" alt="" /></p>
+<p><img src="https://liqide0421.github.io/materials/garden/post/github-blog/clone-repository.png" alt="" /></p>
 
 <h3 id="三搭建个人网站">三、搭建个人网站</h3>
 
 <p>github 有许多模板主题可供选择，相关代码可自动生成：</p>
 
-<p><img src="https://sunmengyuan.github.io/materials/garden/post/github-blog/select-theme.png" alt="" /></p>
+<p><img src="https://liqide0421.github.io/materials/garden/post/github-blog/select-theme.png" alt="" /></p>
 
 <p>但本人更倾向于自行搭建模板：一是因为与其改别人的不如自己写；二是为了令自己的网站更符合个人审美；三是因为作为一枚傲娇的前端工程师套用别人的模板实在说不过去。</p>
 
-<p>下面来一句广告语，欢迎参观<a href="https://sunmengyuan.github.io">呆恋小喵的后花园</a>，你可能觉得它不够漂亮，但是我喜欢。该网站使用 jekyll 框架搭建，图片资源使用七牛托管。为何要将资源托管呢？因为 github pages 的免费空间有限啊，图片辣么大不是么。</p>
+<p>下面来一句广告语，欢迎参观<a href="https://liqide0421.github.io">木子粑粑的后花园</a>，你可能觉得它不够漂亮，但是我喜欢。该网站使用 jekyll 框架搭建，图片资源使用七牛托管。为何要将资源托管呢？因为 github pages 的免费空间有限啊，图片辣么大不是么。</p>
 
 <hr />
 
@@ -99,7 +99,7 @@
 
 <p>目录结构如下：_layouts 内的文件为骨架模板；_posts 内的 markdown 文件会转化为我们所需发表的文章；assets 含一些静态资源文件；views 包含站点内的所有页面；_config.yml 为配置文件。</p>
 
-<p><img src="https://sunmengyuan.github.io/materials/garden/post/github-blog/jekyll-catalog.png" alt="" /></p>
+<p><img src="https://liqide0421.github.io/materials/garden/post/github-blog/jekyll-catalog.png" alt="" /></p>
 
 <h5 id="-关于-jekyll-开发环境">* 关于 jekyll 开发环境</h5>
 
@@ -123,7 +123,7 @@ jekyll server
 
 <hr />
 
-<p>不介意各位<a href="https://github.com/sunmengyuan/sunmengyuan.github.io/tree/master/website">下载本人的原创模板</a>做实验，将它拷贝至你的 [github 用户名].github.io 仓库并提交。不了解 git 命令行的同学请查阅<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">教程</a>。</p>
+<p>不介意各位<a href="https://github.com/liqide0421/liqide0421.github.io/tree/master/website">下载本人的原创模板</a>做实验，将它拷贝至你的 [github 用户名].github.io 仓库并提交。不了解 git 命令行的同学请查阅<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">教程</a>。</p>
 
 <p>现在，访问 <strong>[github 用户名].github.io/garden/</strong> 会有惊喜嗷~</p>
 
@@ -131,13 +131,13 @@ jekyll server
 
 <hr />
 
-<p>作者：呆恋小喵</p>
+<p>作者：木子粑粑</p>
 
-<p>我的后花园：<a href="https://sunmengyuan.github.io/garden/">https://sunmengyuan.github.io/garden/</a></p>
+<p>我的后花园：<a href="https://liqide0421.github.io/garden/">https://liqide0421.github.io/garden/</a></p>
 
-<p>我的 github：<a href="https://github.com/sunmengyuan">https://github.com/sunmengyuan</a></p>
+<p>我的 github：<a href="https://github.com/liqide0421">https://github.com/liqide0421</a></p>
 
-<p>原文链接：<a href="https://sunmengyuan.github.io/garden/2017/02/24/github-blog.html">https://sunmengyuan.github.io/garden/2017/02/24/github-blog.html</a></p>
+<p>原文链接：<a href="https://liqide0421.github.io/garden/2017/02/24/github-blog.html">https://liqide0421.github.io/garden/2017/02/24/github-blog.html</a></p>
 
 </article>
 <footer>
